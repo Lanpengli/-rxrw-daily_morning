@@ -176,7 +176,7 @@ data = {"weather_1": {"value": wea_1, "color": get_random_color()},
         "words": {"value": get_words(), "color": get_random_color()}
 
         }
-#res = wm.send_template(user_id_xx, template_id_3, data)
-#print(res)
+res = wm.send_template(user_id_xx, template_id_3, data)
+print(res)
 res = wm.send_template(user_id_test, template_id_3, data)
 print(res)
