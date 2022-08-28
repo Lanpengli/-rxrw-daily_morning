@@ -75,7 +75,7 @@ import time
 # template_id = os.environ["TEMPLATE_ID"]
 
 today = datetime.now()
-start_date = '2022-08-18'
+start_date = '2022-08-17'
 
 city_1 = '宜昌'
 city_2 = '北海'
